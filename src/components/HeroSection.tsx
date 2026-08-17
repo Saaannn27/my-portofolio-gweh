@@ -205,10 +205,10 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               {/* Inner Image Container with Rounded Corners */}
               <div className="w-full h-full rounded-xl sm:rounded-2xl overflow-hidden relative bg-neutral-950 border border-neutral-800">
                 <img
-                  src={PERSONAL_INFO.photos.bottom}
+                  src={PERSONAL_INFO.photos.hero}
                   alt="Muhammad Ihsan Pratama Portrait"
                   referrerPolicy="no-referrer"
-                  className="w-full h-full object-cover object-center grayscale contrast-125 brightness-95 group-hover:grayscale-0 group-hover:contrast-110 group-hover:scale-105 transition-all duration-700 ease-out"
+                  className="w-full h-full object-contain object-bottom grayscale contrast-125 brightness-95 group-hover:grayscale-0 group-hover:contrast-110 group-hover:scale-[1.03] transition-all duration-700 ease-out"
                 />
 
                 {/* Ambient Radial Gradient Overlay */}
