@@ -1,18 +1,23 @@
 import { Project, SkillCategory } from '../types';
 import heroPortrait from '../assets/images/ihsan_hero_portrait.png';
+{/* Flutter Pos Desk Path*/ }
 import flutterPosHero from '../assets/images/flutter_pos_desk_1786880366618.jpg';
-import showroomHero from '../assets/images/showroom_mobile_thumb.png';
-import showroomGalleryHero from '../assets/images/gallery/automobile_app_hero.png';
-import showroomGallery1 from '../assets/images/gallery/automobile_app_1.png';
-import showroomGallery2 from '../assets/images/gallery/automobile_app_2.png';
-import showroomGallery3 from '../assets/images/gallery/automobile_app_3.png';
-import showroomGallery4 from '../assets/images/gallery/automobile_app_4.png';
-import showroomGallery5 from '../assets/images/gallery/automobile_app_5.png';
-import showroomGallery6 from '../assets/images/gallery/automobile_app_6.png';
-import adultAnalysisHero from '../assets/images/gallery/sensus_analyst_hero.png';
-import adultAnalysis1 from '../assets/images/gallery/sensus_analyst_1.png';
 import posDashboardTab from '../assets/images/pos_dashboard_tab_1786880438601.jpg';
 import posTerminalTab from '../assets/images/pos_terminal_tab_1786880461370.jpg';
+{/* Mobile Showroom App Path*/ }
+import showroomHero from '../assets/images/gallery/automobile_app/showroom_mobile_thumb.png';
+import showroomGalleryHero from '../assets/images/gallery/automobile_app/automobile_mobile_app_hero.png';
+import showroomGallery1 from '../assets/images/gallery/automobile_app/automobile_app_1.png';
+import showroomGallery2 from '../assets/images/gallery/automobile_app/automobile_app_2.png';
+import showroomGallery3 from '../assets/images/gallery/automobile_app/automobile_app_3.png';
+import showroomGallery4 from '../assets/images/gallery/automobile_app/automobile_app_4.png';
+import showroomGallery5 from '../assets/images/gallery/automobile_app/automobile_app_5.png';
+import showroomGallery6 from '../assets/images/gallery/automobile_app_6.png';
+{/* Adult Analysis Path*/ }
+import adultAnalysisHero from '../assets/images/gallery/sensus_analyst_hero.png';
+import adultAnalysis1 from '../assets/images/gallery/sensus_analyst_1.png';
+import adultAnalysis2 from '../assets/images/gallery/sensus_analyst_2.png';
+{/* Automobile Web Path*/ }
 import automobileHero from '../assets/images/automobile_showroom_web.png';
 import automobileThumb from '../assets/images/automobile_showroom_thumb.jpg';
 
@@ -220,14 +225,14 @@ export const PROJECTS: Project[] = [
   {
     id: 'census-analyst',
     title: 'SENSUS ANALYST',
-    subtitle: 'Data Pipeline',
-    category: 'DATA PIPELINE',
+    subtitle: 'Data Analysis',
+    category: 'DATA ANALYSIS',
     year: '2025',
-    role: 'DATA ENGINEER',
-    tech: ['PYTHON', 'D3.JS', 'NUMPY', 'FASTAPI'],
+    role: 'DATA ANALYST',
+    tech: ['PYTHON', 'NUMPY', 'PANDAS', 'MATPLOTLIB', 'SEABORN'],
     pillar: 'DATA',
     image: adultAnalysisHero,
-    imageAlt: 'K-Means Clustering Unsupervised Machine Learning Visualization',
+    imageAlt: 'Decision Tree Algorithm',
     featured: false,
     gridSpan: 'col-span-1 md:col-span-4',
     overview: {
