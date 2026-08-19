@@ -1,5 +1,4 @@
 import { Project, SkillCategory } from '../types';
-import portraitBottom from '../assets/images/ihsan_closeup_1786880334136.jpg';
 import heroPortrait from '../assets/images/ihsan_hero_portrait.png';
 import flutterPosHero from '../assets/images/flutter_pos_desk_1786880366618.jpg';
 import showroomHero from '../assets/images/showroom_mobile_thumb.png';
@@ -9,6 +8,7 @@ import showroomGallery2 from '../assets/images/gallery/automobile_app_2.png';
 import showroomGallery3 from '../assets/images/gallery/automobile_app_3.png';
 import showroomGallery4 from '../assets/images/gallery/automobile_app_4.png';
 import showroomGallery5 from '../assets/images/gallery/automobile_app_5.png';
+import showroomGallery6 from '../assets/images/gallery/automobile_app_6.png';
 import kmeansHero from '../assets/images/kmeans_viz_1786880414916.jpg';
 import posDashboardTab from '../assets/images/pos_dashboard_tab_1786880438601.jpg';
 import posTerminalTab from '../assets/images/pos_terminal_tab_1786880461370.jpg';
@@ -17,7 +17,7 @@ import automobileThumb from '../assets/images/automobile_showroom_thumb.jpg';
 
 export const PERSONAL_INFO = {
   name: 'MUHAMMAD IHSAN PRATAMA',
-  brandName: 'ihsnprtma_',
+  brandName: 'Saan.dev',
   role: 'CREATIVE DEVELOPER & DIGITAL BUILDER',
   tagline: 'I BUILD THINGS WITH CODE.',
   bio: 'With a foundation in Informatics Engineering, I specialize in bridging the gap between complex logic and seamless user experiences. My expertise spans across Web, Mobile, Data Engineering, and Desktop Applications, allowing me to approach digital problem-solving from multiple architectural angles.',
@@ -28,7 +28,6 @@ export const PERSONAL_INFO = {
   copyrightYear: '2024',
   photos: {
     hero: heroPortrait,
-    bottom: portraitBottom,
   }
 };
 
@@ -175,37 +174,37 @@ export const PROJECTS: Project[] = [
     ],
     gallery: [
       {
-        image: showroomHero,
+        image: showroomGallery1,
         title: 'Modern Showroom App',
         description: 'A modern automotive showroom platform designed to provide a clean, intuitive, and engaging car shopping experience.',
         orientation: 'landscape'
       },
       {
-        image: showroomGallery1,
+        image: showroomGallery2,
         title: 'Car Search & Discovery',
         description: 'Browse vehicles by brand with fast search and easy filtering to quickly find the right car.',
         orientation: 'landscape'
       },
       {
-        image: showroomGallery2,
+        image: showroomGallery3,
         title: 'Vehicle Detail',
         description: 'Explore detailed vehicle information, pricing, location, and quick actions for test drives and dealer contact.',
         orientation: 'landscape'
       },
       {
-        image: showroomGallery3,
+        image: showroomGallery4,
         title: 'Detailed Specifications',
         description: 'View essential vehicle specifications, including engine, transmission, fuel type, power, and passenger capacity.',
         orientation: 'landscape'
       },
       {
-        image: showroomGallery4,
+        image: showroomGallery5,
         title: 'Premium Services',
         description: 'Access key automotive services such as vehicle comparison, credit simulation, and trusted dealer connections.',
         orientation: 'landscape'
       },
       {
-        image: showroomGallery5,
+        image: showroomGallery6,
         title: 'Company & Locations',
         description: 'Discover company information, business hours, contact details, and showroom locations across different cities.',
         orientation: 'landscape'

@@ -112,7 +112,7 @@ export const SelectedWorkSection: React.FC<SelectedWorkSectionProps> = ({
                       src={project.image}
                       alt={project.imageAlt}
                       referrerPolicy="no-referrer"
-                      className="w-full h-full object-contain object-center grayscale contrast-115 brightness-95 group-hover:scale-[1.02] group-hover:grayscale-0 group-hover:contrast-110 transition-all duration-700 ease-out"
+                      className="w-full h-full object-contain object-center group-hover:scale-[1.02] transition-all duration-700 ease-out"
                     />
                     <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500 pointer-events-none" />
 

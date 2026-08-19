@@ -51,7 +51,7 @@ export const ProjectDetailView: React.FC<ProjectDetailViewProps> = ({
           transition={{ duration: 0.6 }}
         >
           {/* Main Huge Title */}
-          <h1 className="font-extended text-5xl sm:text-7xl lg:text-8xl font-extrabold uppercase tracking-tight text-white leading-[0.9] mb-8">
+          <h1 className="font-extended text-3xl sm:text-5xl lg:text-8xl font-extrabold uppercase tracking-tight text-white leading-[0.9] mb-8">
             {project.title.includes('POS') ? (
               <>
                 <span className="block">FLUTTER POS</span>
@@ -109,7 +109,7 @@ export const ProjectDetailView: React.FC<ProjectDetailViewProps> = ({
             src={project.image}
             alt={project.imageAlt}
             referrerPolicy="no-referrer"
-            className="w-auto max-w-full h-auto block object-contain grayscale contrast-120 brightness-95 group-hover:grayscale-0 transition-all duration-700 ease-out"
+            className="w-auto max-w-full h-auto block object-contain transition-all duration-700 ease-out"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none" />
         </motion.div>
@@ -237,7 +237,7 @@ export const ProjectDetailView: React.FC<ProjectDetailViewProps> = ({
                       referrerPolicy="no-referrer"
                       whileHover={{ scale: 1.02 }}
                       transition={{ duration: 0.5 }}
-                      className="w-full h-auto block object-contain grayscale contrast-115 brightness-95 group-hover:grayscale-0 transition-all duration-500"
+                      className="w-full h-auto block object-contain transition-all duration-500"
                     />
                   </div>
 
@@ -266,7 +266,7 @@ export const ProjectDetailView: React.FC<ProjectDetailViewProps> = ({
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="font-extended text-5xl sm:text-7xl lg:text-8xl font-extrabold uppercase tracking-tight text-white leading-[0.9] mb-10 select-none">
+            <h2 className="font-extended text-4xl sm:text-7xl lg:text-8xl font-extrabold uppercase tracking-tight text-white leading-[0.9] mb-10 select-none">
               <span className="block">LET'S BUILD</span>
               <span className="block">SOMETHING</span>
             </h2>
