@@ -9,7 +9,8 @@ import showroomGallery3 from '../assets/images/gallery/automobile_app_3.png';
 import showroomGallery4 from '../assets/images/gallery/automobile_app_4.png';
 import showroomGallery5 from '../assets/images/gallery/automobile_app_5.png';
 import showroomGallery6 from '../assets/images/gallery/automobile_app_6.png';
-import kmeansHero from '../assets/images/kmeans_viz_1786880414916.jpg';
+import adultAnalysisHero from '../assets/images/gallery/sensus_analyst_hero.png';
+import adultAnalysis1 from '../assets/images/gallery/sensus_analyst_1.png';
 import posDashboardTab from '../assets/images/pos_dashboard_tab_1786880438601.jpg';
 import posTerminalTab from '../assets/images/pos_terminal_tab_1786880461370.jpg';
 import automobileHero from '../assets/images/automobile_showroom_web.png';
@@ -217,15 +218,15 @@ export const PROJECTS: Project[] = [
     liveDemoAvailable: true
   },
   {
-    id: 'kmeans-clustering',
-    title: 'K-MEANS CLUSTERING',
+    id: 'census-analyst',
+    title: 'SENSUS ANALYST',
     subtitle: 'Data Pipeline',
     category: 'DATA PIPELINE',
     year: '2025',
     role: 'DATA ENGINEER',
     tech: ['PYTHON', 'D3.JS', 'NUMPY', 'FASTAPI'],
     pillar: 'DATA',
-    image: kmeansHero,
+    image: adultAnalysisHero,
     imageAlt: 'K-Means Clustering Unsupervised Machine Learning Visualization',
     featured: false,
     gridSpan: 'col-span-1 md:col-span-4',
@@ -247,7 +248,7 @@ export const PROJECTS: Project[] = [
     ],
     gallery: [
       {
-        image: kmeansHero,
+        image: adultAnalysis1,
         title: 'CLUSTER CONVERGENCE',
         description: 'Multi-node visual representation showing partitioned vector clusters in high contrast dark mode.',
         orientation: 'landscape'
