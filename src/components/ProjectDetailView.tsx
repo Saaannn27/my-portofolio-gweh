@@ -266,7 +266,7 @@ export const ProjectDetailView: React.FC<ProjectDetailViewProps> = ({
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="font-extended text-4xl sm:text-7xl lg:text-8xl font-extrabold uppercase tracking-tight text-white leading-[0.9] mb-10 select-none">
+            <h2 className="font-extended text-3xl sm:text-7xl lg:text-8xl font-extrabold uppercase tracking-tight text-white leading-[0.9] mb-10 select-none">
               <span className="block">LET'S BUILD</span>
               <span className="block">SOMETHING</span>
             </h2>
