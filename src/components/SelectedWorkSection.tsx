@@ -21,16 +21,16 @@ export const SelectedWorkSection: React.FC<SelectedWorkSectionProps> = ({
 
   const filteredProjects = filterPillar
     ? PROJECTS.filter(
-        (p) =>
-          p.pillar.toLowerCase().includes(filterPillar.toLowerCase()) ||
-          p.category.toLowerCase().includes(filterPillar.toLowerCase())
-      )
+      (p) =>
+        p.pillar.toLowerCase().includes(filterPillar.toLowerCase()) ||
+        p.category.toLowerCase().includes(filterPillar.toLowerCase())
+    )
     : PROJECTS;
 
   return (
     <section id="work" className="w-full py-20 md:py-28 border-b border-[#22252a]/60">
       <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-12">
-        
+
         {/* Section Header & Interactive Filter Tabs */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12 sm:mb-16">
           <motion.div
@@ -42,7 +42,7 @@ export const SelectedWorkSection: React.FC<SelectedWorkSectionProps> = ({
             <span className="font-mono-tech text-xs tracking-widest text-neutral-400 uppercase block mb-3">
               02 . FEATURED CASE STUDIES
             </span>
-            <h2 className="font-extended text-5xl sm:text-6xl lg:text-7xl font-extrabold uppercase tracking-tight text-white dark:text-white leading-[0.9]">
+            <h2 className="font-extended text-3xl sm:text-6xl lg:text-7xl font-extrabold uppercase tracking-tight text-white dark:text-white leading-[0.9]">
               <span className="block">SELECTED</span>
               <span className="block">WORK</span>
             </h2>
@@ -58,11 +58,10 @@ export const SelectedWorkSection: React.FC<SelectedWorkSectionProps> = ({
           >
             <button
               onClick={() => setFilterPillar(null)}
-              className={`relative px-3.5 py-1.5 font-mono-tech text-xs uppercase tracking-wider transition-colors border ${
-                filterPillar === null
-                  ? 'bg-white text-black border-white font-semibold'
-                  : 'bg-neutral-900 text-neutral-400 border-neutral-800 hover:text-white'
-              }`}
+              className={`relative px-3.5 py-1.5 font-mono-tech text-xs uppercase tracking-wider transition-colors border ${filterPillar === null
+                ? 'bg-white text-black border-white font-semibold'
+                : 'bg-neutral-900 text-neutral-400 border-neutral-800 hover:text-white'
+                }`}
             >
               ALL WORK ({PROJECTS.length})
             </button>
@@ -73,11 +72,10 @@ export const SelectedWorkSection: React.FC<SelectedWorkSectionProps> = ({
                 <button
                   key={pillar.id}
                   onClick={() => setFilterPillar(isCatActive ? null : pillar.id)}
-                  className={`relative px-3.5 py-1.5 font-mono-tech text-xs uppercase tracking-wider transition-colors border ${
-                    isCatActive
-                      ? 'bg-white text-black border-white font-semibold'
-                      : 'bg-neutral-900 text-neutral-400 border-neutral-800 hover:text-white'
-                  }`}
+                  className={`relative px-3.5 py-1.5 font-mono-tech text-xs uppercase tracking-wider transition-colors border ${isCatActive
+                    ? 'bg-white text-black border-white font-semibold'
+                    : 'bg-neutral-900 text-neutral-400 border-neutral-800 hover:text-white'
+                    }`}
                 >
                   {pillar.title.split(' ')[0]}
                 </button>
@@ -150,7 +148,7 @@ export const SelectedWorkSection: React.FC<SelectedWorkSectionProps> = ({
                       </div>
                     </div>
 
-                    <motion.div 
+                    <motion.div
                       whileHover={{ scale: 1.1, rotate: 45 }}
                       transition={{ type: 'spring', stiffness: 400, damping: 25 }}
                       className="p-2 border border-neutral-800 text-neutral-400 group-hover:text-white group-hover:border-white group-hover:bg-white/10 transition-all duration-200 shrink-0 ml-2"

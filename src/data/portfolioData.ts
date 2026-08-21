@@ -12,11 +12,15 @@ import showroomGallery2 from '../assets/images/gallery/automobile_app/automobile
 import showroomGallery3 from '../assets/images/gallery/automobile_app/automobile_app_3.png';
 import showroomGallery4 from '../assets/images/gallery/automobile_app/automobile_app_4.png';
 import showroomGallery5 from '../assets/images/gallery/automobile_app/automobile_app_5.png';
-import showroomGallery6 from '../assets/images/gallery/automobile_app_6.png';
+import showroomGallery6 from '../assets/images/gallery/automobile_app/automobile_app_6.png';
 {/* Adult Analysis Path*/ }
-import adultAnalysisHero from '../assets/images/gallery/sensus_analyst/sensus_analyst_1.png';
-import adultAnalysis1 from '../assets/images/gallery/sensus_analyst/sensus_analyst_2.png';
-import adultAnalysis2 from '../assets/images/gallery/sensus_analyst/sensus_analyst_3.png';
+import adultAnalysisHero from '../assets/images/gallery/sensus_analyst/sensus_analyst_hero.png';
+import adultAnalysis1 from '../assets/images/gallery/sensus_analyst/sensus_analyst_1.png';
+import adultAnalysis2 from '../assets/images/gallery/sensus_analyst/sensus_analyst_2.png';
+import adultAnalysis3 from '../assets/images/gallery/sensus_analyst/sensus_analyst_3.png';
+import adultAnalysis4 from '../assets/images/gallery/sensus_analyst/sensus_analyst_4.png';
+import adultAnalysis5 from '../assets/images/gallery/sensus_analyst/sensus_analyst_5.png';
+
 {/* Automobile Web Path*/ }
 import automobileHero from '../assets/images/automobile_showroom_web.png';
 import automobileThumb from '../assets/images/automobile_showroom_thumb.jpg';
@@ -236,28 +240,61 @@ export const PROJECTS: Project[] = [
     featured: false,
     gridSpan: 'col-span-1 md:col-span-4',
     overview: {
-      problem: 'High-dimensional customer demographic and behavioral data sets are difficult for business stakeholders to interpret without real-time multi-dimensional visual feedback.',
-      solution: 'Developed an end-to-end unsupervised data processing pipeline and D3.js graphical canvas that renders iterative centroid convergence in real-time.'
+      problem: 'Raw demographic and socioeconomic data contains complex relationships between personal attributes and income levels, making it difficult to identify meaningful patterns and evaluate the factors associated with higher income.',
+      solution: 'Built an end-to-end data analysis and classification pipeline using the UCI Adult Income dataset, combining exploratory data analysis, categorical preprocessing, statistical visualization, and Decision Tree classification to analyze income patterns and classify individuals into income groups.'
     },
     technicalDive: [
       {
-        title: 'ITERATIVE CONVERGENCE ENGINE',
-        tag: 'NUMPY / FASTAPI',
-        description: 'Parallelized Euclidean distance calculations across vectorized data arrays, streaming epoch updates to the frontend via WebSockets.'
+        title: 'EXPLORATORY DATA ANALYSIS',
+        tag: 'MATPLOTLIB / SEABORN',
+        description: 'Visualized demographic distributions, income patterns, feature relationships, and correlations to uncover meaningful relationships between education, occupation, age, working hours, and income level.'
       },
       {
-        title: 'DYNAMIC VORONOI TESSELLATION',
-        tag: 'D3.JS / CANVAS',
-        description: 'Rendered real-time Voronoi partition boundaries as cluster centroids shift with each algorithmic iteration.'
+        title: 'DECISION TREE CLASSIFICATION',
+        tag: 'PYTHON / SCIKIT-LEARN',
+        description: 'Developed and evaluated a Decision Tree classification model using scikit-learn to predict income levels based on demographic attributes, followed by comprehensive performance evaluation and interpretation of feature importance and model behavior.'
+      },
+      {
+        title: 'MODEL PERFORMANCE ANALYSIS',
+        tag: 'ACCURACY / PRECISION / RECALL / F1',
+        description: 'Evaluated classification performance using accuracy, precision, recall, and F1-score, providing a multi-dimensional assessment of the model’s ability to distinguish between income classes.'
+      },
+      {
+        title: 'ANALYTICAL DASHBOARD',
+        tag: 'PYTHON / GOOGLE COLAB',
+        description: 'Presented the analysis through an interactive-style analytical dashboard combining key visualizations, demographic insights, and classification results into a concise data storytelling experience.'
       }
     ],
     gallery: [
       {
         image: adultAnalysis1,
-        title: 'CLUSTER CONVERGENCE',
-        description: 'Multi-node visual representation showing partitioned vector clusters in high contrast dark mode.',
+        title: 'DATASET OVERVIEW',
+        description: 'A structured view of the U.S. Census Adult dataset, highlighting key features, records, missing values, and income distribution.',
         orientation: 'landscape'
-      }
+      },
+      {
+        image: adultAnalysis2,
+        title: 'PATTERN DISCOVERY',
+        description: 'Exploratory analysis revealing relationships between education, age, work hours, marital status, and income levels.',
+        orientation: 'landscape'
+      },
+      {
+        image: adultAnalysis3,
+        title: 'DATA PREPROCESSING',
+        description: 'End-to-end data preprocessing pipeline transforming raw U.S. Census income data into a clean, structured, and model-ready dataset through cleaning, encoding, and numerical transformation.',
+        orientation: 'landscape'
+      },
+      {
+        image: adultAnalysis4,
+        title: 'INCOME CLASSIFICATION',
+        description: 'Visual breakdown of income classes, contrasting individuals earning above and below the $50K annual threshold.',
+        orientation: 'landscape'
+      },
+      {
+        image: adultAnalysis5,
+        title: 'KEY INSIGHTS',
+        description: 'Key insights into U.S. Census income patterns, highlighting the $50K income threshold, demographic differences, and factors associated with higher earnings.', orientation: 'landscape'
+      },
     ],
     metrics: [
       { label: 'Vector Dimension', value: '128-D' },
