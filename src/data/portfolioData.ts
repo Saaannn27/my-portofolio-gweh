@@ -6,7 +6,7 @@ import posDashboardTab from '../assets/images/pos_dashboard_tab_1786880438601.jp
 import posTerminalTab from '../assets/images/pos_terminal_tab_1786880461370.jpg';
 {/* Mobile Showroom App Path*/ }
 import showroomHero from '../assets/images/gallery/automobile_app/showroom_mobile_thumb.png';
-import showroomGalleryHero from '../assets/images/gallery/automobile_app/automobile_mobile_app_hero.png';
+import showroomGalleryHero from '../assets/images/gallery/automobile_app/automobile_app_hero.png';
 import showroomGallery1 from '../assets/images/gallery/automobile_app/automobile_app_1.png';
 import showroomGallery2 from '../assets/images/gallery/automobile_app/automobile_app_2.png';
 import showroomGallery3 from '../assets/images/gallery/automobile_app/automobile_app_3.png';
