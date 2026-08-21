@@ -41,15 +41,6 @@ export const Footer: React.FC<FooterProps> = ({ onOpenContact, onNavigateHome })
             >
               LINKEDIN
             </a>
-            <a
-              id="footer-twitter-link"
-              href={PERSONAL_INFO.twitter}
-              target="_blank"
-              rel="noreferrer"
-              className="text-neutral-400 hover:text-white transition-colors"
-            >
-              TWITTER
-            </a>
             <button
               id="footer-email-link"
               onClick={onOpenContact}
