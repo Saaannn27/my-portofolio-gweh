@@ -14,9 +14,9 @@ import showroomGallery4 from '../assets/images/gallery/automobile_app/automobile
 import showroomGallery5 from '../assets/images/gallery/automobile_app/automobile_app_5.png';
 import showroomGallery6 from '../assets/images/gallery/automobile_app_6.png';
 {/* Adult Analysis Path*/ }
-import adultAnalysisHero from '../assets/images/gallery/sensus_analyst_hero.png';
-import adultAnalysis1 from '../assets/images/gallery/sensus_analyst_1.png';
-import adultAnalysis2 from '../assets/images/gallery/sensus_analyst_2.png';
+import adultAnalysisHero from '../assets/images/gallery/sensus_analyst/sensus_analyst_1.png';
+import adultAnalysis1 from '../assets/images/gallery/sensus_analyst/sensus_analyst_2.png';
+import adultAnalysis2 from '../assets/images/gallery/sensus_analyst/sensus_analyst_3.png';
 {/* Automobile Web Path*/ }
 import automobileHero from '../assets/images/automobile_showroom_web.png';
 import automobileThumb from '../assets/images/automobile_showroom_thumb.jpg';
